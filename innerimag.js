@@ -40,6 +40,7 @@ axios.get("https://fizal.me/pokeapi/api/25.json")
             thunder.stats[4].base_stat,
             thunder.stats[3].base_stat,
             thunder.stats[0].base_stat,
+            thunder.name,
         
 
          )
@@ -63,7 +64,8 @@ axios.get("https://fizal.me/pokeapi/api/25.json")
     psychic.stats[5].base_stat,
     psychic.stats[4].base_stat,
     psychic.stats[3].base_stat,
-    psychic.stats[0].base_stat,        
+    psychic.stats[0].base_stat,
+    psychic.name,        
     )  
     
     reynaldo.add(psycho)
@@ -82,6 +84,7 @@ axios.get("https://fizal.me/pokeapi/api/25.json")
         bullet.stats[4].base_stat,
         bullet.stats[3].base_stat,
         bullet.stats[0].base_stat,
+        bullet.name,
     )
 
     reynaldo.add(squirt)
