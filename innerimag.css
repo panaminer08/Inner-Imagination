@@ -1,5 +1,5 @@
 body {
-    background-color: #e6d3d3;
+    background-color: #000000;
     font-family: 'Open Sans', sans-serif;
 
 }
@@ -12,8 +12,19 @@ body {
 header {
     background-color: #EB5757;
     font-family: 'Roboto', sans-serif;
+    font-synthesis: weight;
+    height: 150px;
+    font-size: large;
+    text-align: center;
+    
 }
 
+.footer {
+  position: absolute;
+  top: 800px;
+  width: 1200px;
+  background-color: Red
+}
 
 .pokeball{
     margin:50px auto;
@@ -22,26 +33,34 @@ header {
 
   #reynit{
       position: absolute;
-      left: 500px;
+      left: 575px;
       top: 25px;
       height: 200px;
       width: 200px;
   }
 
+  #reynaldo {
+    position: absolute;
+    Top: 175px;
+  }
+
   #reyna {
       position: absolute;
-      left: 100px;
+      left: 50px;
       top: 25px;
-      height: 200px;
-      width: 200px;
+      
   }
 
   #reyno{
     position: absolute;
     left: 300px;
-    top: 125px;
+    top: 175px;
     height: 200px;
     width: 200px;
+  }
+
+  textarea {
+    background-color: white;
   }
 
   div {
@@ -57,7 +76,7 @@ header {
   }
   
   .middle_circle{
-    background-color:#FFFFFF;
+    background-color:rgb(18, 123, 209);
     width:75px;
     height:75px;
     border-radius:50%;
@@ -67,7 +86,7 @@ header {
   }
   
   .white_in{
-    background-color:#FFFFFF;
+    background-color:rgb(255, 255, 255);
     width:50px;
     height:50px;
     border-radius:50%;

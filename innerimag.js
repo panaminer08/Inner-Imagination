@@ -97,8 +97,10 @@ axios.get("https://fizal.me/pokeapi/api/25.json")
     let pokemon = pokes.data
 
     let type = () => {
-    let div1 = document.getElementById("reynit")
+    let div1 = document.getElementById("pika")
+    div1.innerHTML= "";
     let div = document.createElement("div"); 
+    div1.id= pokemon.name
     div.innerHTML=`    
     <div class="card">
     <div class="image">
@@ -111,7 +113,12 @@ axios.get("https://fizal.me/pokeapi/api/25.json")
     </div>
     </div>
     </div>`
-      div1.appendChild(div);
+    
+    div.onclick = function(event){
+        event.stopPropagation();
+        div1.removeChild(div)
+    }
+    div1.appendChild(div);
     } 
     document.getElementById("reynit").onclick = function (event) {
         type(pokes)}
@@ -123,8 +130,10 @@ axios.get("https://fizal.me/pokeapi/api/620.json")
 
     let psychic = psy.data
     let type2 = () => {
-    let div2 = document.getElementById("reyna");
+    let div2 = document.getElementById("mien");
+    div2.innerHTML = '';
     let di = document.createElement("div");
+    di.id= psychic.name
     di.innerHTML=`    
     <div class="card">
     <div class="image">
@@ -139,7 +148,12 @@ axios.get("https://fizal.me/pokeapi/api/620.json")
     </div>
     </div>
     </div>`
-      div2.appendChild(di);   
+
+ di.onclick = function(event){
+     event.stopPropagation();
+     div2.removeChild(di)
+ }   
+div2.appendChild(di);   
 }
 document.getElementById("reyna").onclick = function (event) {
     type2(psychic)}
@@ -147,11 +161,14 @@ document.getElementById("reyna").onclick = function (event) {
 
 axios.get("https://fizal.me/pokeapi/api/54.json")
  .then((water) =>{
-
+   
+    
     let duck = water.data
     let type3 = () => {
-    let div3 = document.getElementById("reyno");
+    let div3 = document.getElementById("psy");
+    div3.innerHTML = '';
     let de = document.createElement("div");
+    de.id = duck.name
     de.innerHTML=`    
     <div class="card">
     <div class="image">
@@ -166,11 +183,18 @@ axios.get("https://fizal.me/pokeapi/api/54.json")
     </div>
     </div>
     </div>`
+    de.onclick = function(event){
+        event.stopPropagation();
+        div3.removeChild(de)
+    }
     div3.appendChild(de);
     }
  document.getElementById("reyno").onclick = function (event) {
- type3(duck)}
+    type3(duck) }
     })
+
+
+   
 
 // //   pokerender(pokemon);
 // //   type(psychic)
