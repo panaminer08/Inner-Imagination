@@ -1,0 +1,87 @@
+body {
+    background-color: #e6d3d3;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ div {
+      margin: 0 auto;
+      padding: 0;
+}
+
+header {
+    background-color: #EB5757;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.pokeball{
+    margin:50px auto;
+    position: absolute;
+  }
+
+  #reynit{
+      position: absolute;
+      left: 500px;
+      top: 25px;
+      height: 200px;
+      width: 200px;
+  }
+
+  #reyna {
+      position: absolute;
+      left: 100px;
+      top: 25px;
+      height: 200px;
+      width: 200px;
+  }
+
+  #reyno{
+    position: absolute;
+    left: 300px;
+    top: 125px;
+    height: 200px;
+    width: 200px;
+  }
+
+  div {
+    margin: 0 auto; padding: 0;
+  }
+  
+  .top{
+    background-color:#EB2224;
+    height:110px;
+    width:230px;
+    border-radius:195px 195px 0 0;
+    border-bottom:6px solid #000000;
+  }
+  
+  .middle_circle{
+    background-color:#FFFFFF;
+    width:75px;
+    height:75px;
+    border-radius:50%;
+    margin: 70px 65px;
+    position:absolute;
+    border:12px solid #000000;
+  }
+  
+  .white_in{
+    background-color:#FFFFFF;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    padding:4px 4px;
+    margin:5px 6px;
+    border:3px solid #000000;
+  }
+
+ .bottom {
+    background-color:#FFFFFF;
+    height:110px;
+    width:230px;
+    border-radius:0 0 195px 195px;
+    border-top:6px solid #000000;
+  }
+
+  
