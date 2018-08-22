@@ -1,0 +1,14 @@
+body {
+    background-image: url("http://img06.deviantart.net/cb6d/i/2012/305/4/6/angry_pikachu_attack_by_aminezizi-d5jma3r.jpg");
+    background-repeat: no-repeat;  
+    background-position: center;
+    background-attachment: fixed;
+    background-color: bisque
+}
+
+footer {
+    position: absolute;
+    top: 600px;
+}
+
+
