@@ -2,6 +2,9 @@ body {
   background-color: #000000;
   font-family: 'Open Sans', sans-serif; }
 
+.nav-wrapper {
+  background-color: #3333b3; }
+
 div {
   margin: 0 auto;
   padding: 0; }
@@ -15,10 +18,9 @@ header {
   text-align: center; }
 
 .footer {
+  background-color: Red;
   position: absolute;
-  top: 800px;
-  width: 1200px;
-  background-color: Red; }
+  top: 800px; }
 
 .pokeball {
   margin: 50px auto;
