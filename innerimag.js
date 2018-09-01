@@ -139,7 +139,7 @@ axios.get("https://fizal.me/pokeapi/api/620.json")
             di.innerHTML = `    
     <div class="card">
     <div class="image">
-    <image class="responsive-img" src= "http://orig02.deviantart.net/b9a0/f/2012/011/7/9/pokemon_mienshao_by_luckyfantasy4ever-d4m1hhm.jpg"> 
+    <image class="responsive-img" src= ""> 
     <div class="card content"><span class="card-title">${psychic.name}</span>
     <span><ul><li><span>H.P:</span> ${psychic.stats[5].base_stat}</li> 
     <li><span>Attack:</span> ${psychic.stats[4].base_stat}</li>
@@ -200,51 +200,51 @@ axios.get("https://fizal.me/pokeapi/api/54.json")
 // This code down here will be my pokemon, particularly pikachu, in a side card 
 // with hidden stats once you click.
 
-//     let pikapi = document.getElementById("corner-card")
-//     let pi = document.createElement("div")
-//     let ci = document.createElement("div")
-//     pi.innerHTML = `
-//     <div class="container">
-//     <div class="row">
-//         <div class="col l4 m3 s12">
-//     <div class="card">
-//     <div class="card-image waves-effect waves-block waves-light">
-//       <img class="activator""responsive-img" src="https://i.pinimg.com/736x/27/b4/01/27b4012799d4f8ba5ce5d4f758b0cb5f--kids-bedroom-video-game-characters.jpg">
-//     </div>
-//     <div class="card-content">
-//       <span class="card-title activator grey-text text-darken-4">Pikachu<i class="material-icons right">more_vert</i></span>
-//     </div>
-//     <div class="card-reveal">
-//       <span class="card-title grey-text text-darken-4">Pikachu<i class="material-icons right">close</i></span>
-//       <p>Pikachu is a rare pokemon that is only available to a few luck members.</p>
-//     </div>
-//   </div>
-//   </div>
-//   </div>
-//   </div>`
+    let pikapi = document.getElementById("corner-card")
+    let pi = document.createElement("div")
+    let ci = document.createElement("div")
+    pi.innerHTML = `
+    <div class="container">
+    <div class="row">
+        <div class="col l4 m3 s12">
+    <div class="card">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator""responsive-img" src="https://i.pinimg.com/736x/27/b4/01/27b4012799d4f8ba5ce5d4f758b0cb5f--kids-bedroom-video-game-characters.jpg">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4">Pikachu<i class="material-icons right">more_vert</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">Pikachu<i class="material-icons right">close</i></span>
+      <p>Pikachu is a rare pokemon that is only available to a few luck members.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>`
   
-//   ci.innerHTML =`
-//   <div class="container"
-//   <div class="row">
-//     <div class="col l4 m3 s12>
-//   <div class="card" "activator">
-//     <div class="card-image waves-effect waves-block waves-light">
-//       <img class="activator""responsive-img" src="http://www.60cards.net/media/user_blog/user_03afdbd66e7929b125f8597834fa83a4/content//800px-Delbert_Mienshao_Hi_Jump_Kick.png">
-//     </div>
-//     <div class="card-content">
-//       <span class="card-title activator grey-text text-darken-4"><strong>MienShao</strong><i class="material-icons right">more Info</i></span>
-//     </div>
-//     <div class="card-reveal">
-//       <span class="card-title grey-text text-darken-4">MienShao<i class="material-icons right">close</i></span>
-//       <p>Here is some more information about this product that is only revealed once clicked on.</p>
-//     </div>
-//   </div>
-//   </div>
-//   </div>
-//   </div>`
+  ci.innerHTML =`
+  <div class="container"
+  <div class="row">
+    <div class="col l4 m3 s12>
+  <div class="card" "activator">
+    <div class="card-image waves-effect waves-block waves-light">
+      <img class="activator""responsive-img" src="http://www.60cards.net/media/user_blog/user_03afdbd66e7929b125f8597834fa83a4/content//800px-Delbert_Mienshao_Hi_Jump_Kick.png">
+    </div>
+    <div class="card-content">
+      <span class="card-title activator grey-text text-darken-4"><strong>MienShao</strong><i class="material-icons right">more Info</i></span>
+    </div>
+    <div class="card-reveal">
+      <span class="card-title grey-text text-darken-4">MienShao<i class="material-icons right">close</i></span>
+      <p>Here is some more information about this product that is only revealed once clicked on.</p>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>`
 
-// pikapi.appendChild(ci)
-// pikapi.appendChild(pi)
+pikapi.appendChild(ci)
+pikapi.appendChild(pi)
 
 
 

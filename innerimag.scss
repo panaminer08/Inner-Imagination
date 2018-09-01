@@ -23,11 +23,43 @@ header {
     
 }
 
-.footer {
-  
-  background-color: Red;
+footer {
+  background-color: rgb(233, 18, 18)
+}
+
+.row {
+  display: table;
+  align: right;
+}
+
+#pikachu-card {
+  float: right;
+  width: 50%;
+  padding: 5px;
+  display: grid;
+
+}
+
+form {
+  background-color: blue;
+  position: absolute;
+  top: 2500px;
+  left:30px;
+  font-size: 30px;
+}
+
+#mienshao-card {
+  clear: both;
+  display: grid;
+  width: 100%;
+}
+
+#theCards {
+  float: right;
   position: absolute;
   top: 800px;
+  left: 200px;
+  background-color: blue;
 }
 
 .pokeball{
@@ -46,6 +78,8 @@ header {
   #reynaldo {
     position: absolute;
     Top: 175px;
+    left: 200px;
+    align: center;
   }
 
 
@@ -62,10 +96,6 @@ header {
     top: 175px;
     height: 200px;
     width: 200px;
-  }
-
-  textarea {
-    background-color: white;
   }
 
   div {
@@ -107,6 +137,8 @@ header {
     border-radius:0 0 195px 195px;
     border-top:6px solid #000000;
   }
+
+  
 
 // section {
 //   position: absolute;
