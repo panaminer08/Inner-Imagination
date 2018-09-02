@@ -40,14 +40,29 @@ footer {
 
 }
 
+#reynit:hover {
+  background-color: red;
+}
+
+#reyna:hover {
+  background-color: yellowgreen;
+}
+
+#reyno:hover {
+  background-color: blue;
+}
+
 form {
   background-color: blue;
   position: absolute;
-  top: 2500px;
+  top: 2700px;
   left:30px;
   font-size: 30px;
 }
 
+header {
+  font-size: 35px;
+}
 #mienshao-card {
   clear: both;
   display: grid;
