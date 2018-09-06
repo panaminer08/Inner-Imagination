@@ -42,7 +42,7 @@ footer {
 form {
   background-color: blue;
   position: absolute;
-  top: 2700px;
+  top: 2900px;
   left: 30px;
   font-size: 30px; }
 
@@ -75,8 +75,7 @@ header {
 #reynaldo {
   position: absolute;
   Top: 175px;
-  left: 200px;
-  align: center; }
+  left: 200px; }
 
 #reyna {
   position: absolute;
